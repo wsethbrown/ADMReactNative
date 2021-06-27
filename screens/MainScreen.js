@@ -38,32 +38,6 @@ function Main() {
 	)
 }
 
-// class Main extends Component {
-// 	render() {
-// 		return (
-// 			<View
-// 				style={{
-// 					flex: 1,
-// 					flexDirection: "column",
-// 					alignItems: "center",
-// 					justifyContent: "center",
-// 				}}>
-// 				<Text style={styles.textStyle}>Home</Text>
-// 				<Text
-// 					style={styles.textStyle}
-// 					onPress={() => navigation.navigate("GenerateCampaign")}>
-// 					Generate Campaign
-// 				</Text>
-// 				<Text
-// 					style={styles.textStyle}
-// 					onPress={() => navigation.navigate("SavedCampaign")}>
-// 					Saved Campaigns
-// 				</Text>
-// 			</View>
-// 		)
-// 	}
-// }
-
 const styles = StyleSheet.create({
 	textStyle: {
 		fontSize: 22,
